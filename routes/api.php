@@ -14,6 +14,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
-});
+// Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
+//     return $request->user();
+// });
+
+
+// Route::group(['prefix' => 'v1'],function(){
+//     require __DIR__ .'/api/user.php';
+//     require __DIR__ .'/api/admin.php';
+// });
+
+
